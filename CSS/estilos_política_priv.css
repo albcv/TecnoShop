@@ -1,0 +1,51 @@
+
+        /*Política de privacidad*/
+
+        .last-updated{
+            margin-bottom: 30px;
+            margin-left: 330px ;
+        }
+
+
+        .sección{
+            margin-top: 50px;
+            text-align: justify;
+            margin-left: 100px;
+        }
+
+        .sección h2{
+            margin-left: 180px;
+        }
+
+        .sección p{
+            margin: 15px 0;
+        }
+
+        @media (max-width: 768px) {
+
+            .last-updated{
+            margin-bottom: -30px;
+            margin-left: 0 ;
+        }
+
+
+            .sección h2{
+            margin-left: -40px;
+        }
+
+         .sección p{
+            margin: 15px 0;
+            margin-left: -100px;
+        }
+
+
+        li{
+            margin-left: -60px;
+        }
+
+        .container{
+            padding: 0 40px;
+        }
+        
+
+        }

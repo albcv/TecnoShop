@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoShop - Venta de Productos de Tecnología</title>
+    <link rel="stylesheet" href="CSS/estilos.css" type="text/css">
+    <link rel="stylesheet" href="CSS/estilos_registrarse.css" type="text/css">
+    <script src="JS/validación_registro.js"></script>
+
+
+</head>
+<body>
+    
+        <div class="container">
+
+                <h2 class="page-title">Registrarse</h2>
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label for="register-name">Nombre completo</label>
+                        <input type="text" id="register-name" name="register-name" required>
+                        <div class="error" id="register-name-error">Por favor ingresa tu nombre</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="register-email">Correo electrónico</label>
+                        <input type="email" id="register-email" name="register-email" required>
+                        <div class="error" id="register-email-error">Por favor ingresa un email válido</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="register-password">Contraseña</label>
+                        <input type="password" id="register-password" name="register-password" required>
+                        <div class="error" id="register-password-error">La contraseña debe tener al menos 6 caracteres</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="register-confirm">Confirmar contraseña</label>
+                        <input type="password" id="register-confirm" name="register-confirm" required>
+                        <div class="error" id="register-confirm-error">Las contraseñas no coinciden</div>
+                    </div>
+                    
+                    <button type="submit" class="btn" id="register-btn">Registrarse</button>
+                </div>      
+                
+                <a href="index.html">Iniciar sesión</a>
+            
+        </div>
+
+</body>
+</html>
